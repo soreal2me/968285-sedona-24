@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Влад Назин](https://up.htmlacademy.ru/htmlcss/24/user/968285).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Панасюк](https://htmlacademy.ru/profile/sasha_oldsport).
 
 ---
 
