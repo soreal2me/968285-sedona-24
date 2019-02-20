@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="utf-8">
+    <meta charset="ut f-8">
     <title>
       Седона: Главная
     </title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
 
@@ -14,8 +17,8 @@
       <img src="img/index-logo.svg" width="140" height="71" alt="Логотип Седона">
     </a>
     <ul class="site-navigation">
-      <li>
-        <a href="info.html">
+      <li class="start">
+        <a href="info.html" class="page">
           Информация
         </a>
       </li>
@@ -36,13 +39,13 @@
 </header>
 
 <main class="container">
- <section class="Sedona-background">
+ <section class="sedona-background">
   <h1 class="visually-hidden">
      Город Седона
   </h1>
     <img src="img/picture.jpg" width="1200" height="773" alt="Welcome to the gorgerous Sedona">
   </section>
-  <section class="info-Sedona">
+  <section class="info-sedona">
     <h2>
       Седона - небольшой городок в Аризоне, заслуживающий большего!
     </h2>
@@ -57,22 +60,27 @@
     <ul class="advantages">
       <li class="feature-item">
         <img src="img/shop.jpg" width="800" height="256" alt="Магазин Седоны">
+        <div class="true-town">
         <h3>
           Настоящий городок
         </h3>
         <p>
           Седона - не атракцион для туристов, там течет своя жизнь
         </p>
+      </div>
       </li>
       <li class="feature-item">
         <img src="img/devil-bridge.jpg" width="800" height="256" alt="Мост дьявола">
+        <div class="bridge-devil">
         <h3>
           Мост дьявола
         </h3>
         <p>
           Да, по нему можно пройти! Если конечно вы осмелитесь
         </p>
+      </div>
       </li>
+      <div class="grey-background">
       <li class="feature-item">
         <h3>
           Небольшая площадь
@@ -96,6 +104,7 @@
         <p>
           Большинство едет в Гранд Каньон и толпится там
         </p>
+      </div>
       </li>
       <li>
         <ul class="more-advantages">
@@ -135,41 +144,38 @@
       Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне
     </p>
     <img src="img/map-sedona.png" width="1200" height="593" alt="Карта Седоны">
-    <!-- форма -->
+
     <section class="searching">
-      <h3>
-        Поиск гостиницы в Седоне
-      </h3>
+      <label for="searching"></label>
+      <input type="button" name="searching" id="searching" class="searching-button" value="Поиск гостиницы в Седоне">
       <form class="searching-form" action="https://echo.htmlacademy.ru" method="post">
         <p class="searching-item">
          <label for="searching-arrival">
            Дата заезда:
          </label>
-          <input type="text" id="searching-arrival" placeholder="24 апреля 2017" name="arrival" value=""
-          </input>
+          <input type="text" id="searching-arrival" placeholder="" name="arrival" value="24 АПРЕЛЯ 2017" class="text">
         </p>
       <p class="searching-item">
         <label for="searching-quit">
           Дата выезда:
         </label>
-      <input type="text" id="searching-quit" placeholder="4 июля 2017" name="quit" value="">
-      </input>
+      <input type="text" id="searching-quit" placeholder="" name="quit" value="4 ИЮЛЯ 2017" class="text">
         </p>
         <label for="adults">
           Взрослые:
         </label>
-        <input type="text" id="adults" name="adults" value="2" />
+        <input type="text" id="adults" name="adults" value="2" class="adults">
         <label for="minus">
         </label>
-        <input type="button" id="minus" name="minus" value="-"/>
+        <input type="button" id="minus" name="minus" value="-">
         <label for="plus">
         </label>
-        <input type="button" id="plus" name="plus" value="+"/>
+        <input type="button" id="plus" name="plus" value="+">
 
         <label for="children">
           Дети:
         </label>
-        <input type="text" id="children" name="children" value="0" />
+        <input type="text" id="children" name="children" value="0" class="children">
         <label for="minus">
         </label>
         <input type="button" id="minus" name="minus" value="-"/>
@@ -177,7 +183,7 @@
         </label>
         <input type="button" id="plus" name="plus" value="+"/>
         <p>
-          <button class="button" type="submit">
+          <button class="button-find" type="submit">
           Найти
         </p>
         </button>
@@ -190,19 +196,19 @@
   <p>
     #VisitSedona
   </p>
-    <ul>
+    <ul class="socials">
       <li>
-        <a class="social button" href="#">
+        <a class="social button" href="https://echo.htmlacademy.ru">
           Твиттер
         </a>
       </li>
       <li>
-        <a class="social button" href="#">
+        <a class="social button" href="https://echo.htmlacademy.ru">
           Фейсбук
         </a>
       </li>
       <li>
-        <a class="social button" href="#">
+        <a class="social button" href="https://echo.htmlacademy.ru">
           Ютуб
         </a>
       </li>
@@ -211,7 +217,7 @@
     <span class="caption">
       Website by
     </span>
-    <a class="footer-copyright">
+    <a href="https://htmlacademy.ru" class="footer-copyright">
         <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="Html Академия">
       </a>
   </p>
