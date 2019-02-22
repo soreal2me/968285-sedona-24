@@ -44,7 +44,6 @@ a {
   background-color: #eeeeee;
 }
 .grey-background .feature-item p {
-  font-family: "PT Sans";
   font-weight: 400;
   line-height: 26px;
   color: #333333;
@@ -56,7 +55,7 @@ a {
   text-align: center;
 }
 .info-sedona h2 {
-  font-size: 21spx;
+  font-size: 21px;
   line-height: 26px;
   font-weight: bold;
 }
@@ -72,23 +71,16 @@ a {
 }
 .feature-item h3 {
   font-size: 21px;
-  font-weight: 700;
 }
 .feature-item p {
-    font-family: "PT Sans";
     font-weight: 400;
     line-height: 21px;
     color: #ffffff;
 }
 .more-advantages .feature-item h3 {
-  font-family: "PT Sans";
   font-size: 21px;
-  font-weight: 700;
-  color: #000000;
 }
 .more-advantages .feature-item p {
-  font-family: "PT Sans";
-  font-size: 14px;
   font-weight: 400;
   color: #333333;
 }
@@ -98,7 +90,6 @@ a {
   text-align: center;
 }
 .search h2 {
-  font-weight: 700;
   font-size: 30px;
   line-height: 36px;
 }
@@ -127,13 +118,11 @@ a {
   color: #ffffff;
 }
 .searching-form p{
-  font-family: "PT Sans";
-  font-weight: 700;
-  line-height: 26px;
   color: #000000;
+  line-height: 26px;
+  font-weight: 700;
 }
 .button-find {
-  font-family: "PT sans";
   font-size: 21px;
   font-weight: 700;
   line-height: 26px;
@@ -176,14 +165,10 @@ a {
   background-color: #766357;
 }
 .main-footer p {
-  font-family: "PT Sans";
-  font-weight: 700;
   font-size: 21px;
   line-height: 26px;
-  color: #000000;
 }
 .main-footer .caption {
-  font-family: "PT Sans";
   font-weight: 400;
   font-size: 14px;
   line-height: 26px;
@@ -192,25 +177,15 @@ a {
 .a-hotels .hotels {
   color: #766357;
 }
-.user-form p{
-    font-family: "PT Sans";
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    color: #653756;
-  }
 
 .infrastructer,
 .typeofhouse,
 .cost h3{
-  font-weight: 700;
   font-size: 16px;
-  color: #000000;
 }
 .label,
 .find,
 .main-choices p {
-    font-family: "PT Sans";
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
@@ -218,7 +193,6 @@ a {
 }
 .top-of-choice p:first-of-type,
 .main-choices a.name-of-hotel  {
-  font-family: "PT Sans";
   font-weight: 700;
   font-size: 21px;
   line-height: 26px;
@@ -230,9 +204,10 @@ a {
 .main-choices a.name-of-hotel:hover {
   color : #81b3d2;
 }
-
+.main-choices a.name-of-hotel:focus {
+    color : #81b3d2;
+}
 .top-of-choice p:last-of-type {
-  font-family: "PT Sans";
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
@@ -241,7 +216,6 @@ a {
 .price,
 .type,
 .rate {
-  font-family: "PT Sans";
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
@@ -261,32 +235,20 @@ a {
 
 
 .button-detailed {
-    font-family: "PT Sans";
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 21px;
     color: #ffffff;
     background-color: #81b3d2;
 }
 .button-reservation {
-    font-family: "PT Sans";
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 21px;
     color: #ffffff;
     background-color: #766357;
 }
 .scale {
-  font-family: "PT Sans";
   font-weight: 400;
-  font-size: 14px;
-  line-height: 21px;
   color: #666666;
   background-color: #f2f2f2;
 }
 .text,.adults, .children  {
-  font-family: "PT Sans";
-  font-weight: 700;
+ font-weight: 700;
   font-size: 14px;
   line-height: 26px;
   color: #000000;
