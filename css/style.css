@@ -43,7 +43,7 @@ a {
 .grey-background {
   background-color: #eeeeee;
 }
-.grey-background .feature-item p {
+.grey-background.feature-item p  {
   font-weight: 400;
   line-height: 26px;
   color: #333333;
@@ -254,4 +254,89 @@ a {
   font-size: 14px;
   line-height: 26px;
   color: #000000;
+}
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+/*------------------Сеточные стили---------------------*/
+html,
+body {
+  max-width: 1200px;
+  max-height: 2765px;
+  margin: 0 auto;
+}
+
+.main-header {
+
+}
+
+.main-navigation {
+  display: flex;
+  justify-content: center;
+}
+
+.main-header-logo {
+  width: 140px;
+  height: 72px;
+}
+
+.site-navigation {
+}
+
+.sedona-background {
+  display:flex;
+  margin-bottom:62px;
+}
+
+.info-sedona {
+  display:flex;
+  flex-direction: column;
+}
+.info-sedona h2 {
+  flex-wrap: wrap;
+  max-width: 450px;
+  align-self: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.info-sedona p {
+  margin-bottom: 55px;
+}
+.advantages {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+.first-line {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  order: -1;
+}
+.third-line {
+  display:flex;
+  margin: 0;
+  padding: 0;
+  order: 1;
+}
+.true-town {
+  order: -1;
+}
+.second-line{
+  display: flex;
+  order: 0;
+  padding: 0;
+}
+.fourth-line {
+  display:flex;
+  order:2;
+}
+.grey-background {
+  width:400px;
 }
