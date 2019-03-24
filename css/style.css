@@ -561,19 +561,19 @@ body {
   text-align: center;
 }
 
-.second-line .feature-item:first-of-type p {
+.second-line:first-of-type p {
   width: 284px;
   padding-left: 56px;
   padding-right: 59px;
 }
 
-.second-line .feature-item:last-of-type p {
+.second-line:last-of-type p {
   width: 303px;
   padding-left: 48px;
   padding-right: 48px;
 }
 
-.second-line .feature-item:nth-of-type(2) p {
+.second-line:nth-of-type(2) p {
   width: 320px;
   padding-left: 40px;
   padding-right: 40px;
@@ -1157,6 +1157,7 @@ body {
   max-height: 250px;
   padding: 30px 72px 10px 72px;
   color: #ffffff;
+  background: #273a41;
   background-image: url("../img/filter-background.jpg");
   background-position: 0 500px;
 }
